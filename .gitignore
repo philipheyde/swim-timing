@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Visual Studio Code workspace
+workspace.code-workspace
+.vscode
+
+package-lock.json
+
+

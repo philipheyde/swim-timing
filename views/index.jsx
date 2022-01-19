@@ -4,9 +4,13 @@ import {
   Link
 } from 'react-router-dom';
 
-var DefaultLayout = require('./layouts/default');
+var DefaultLayout = new require('./layouts/default');
 
 const profiles = [
+    {
+        id:34214,
+        name:"Harald"
+    },
     {
         id:123,
         name:"Svømmer A"
@@ -37,25 +41,20 @@ const profiles = [
     },
 ];
 
+function getListItems() {
+    var forEachData = ''
+    profiles.forEach(d => forEachData += `<li><a href="/profile?id=${d.id}"</a>${d.name}</li>`)
 
-export default class Index extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    return forEachData;
+};
 
-    getListItems() {
-        var forEachData = ''
-        profiles.forEach(d => forEachData += `<li><a href="/profile?id=${d.id}"</a>${d.name}</li>`)
-
-        return forEachData;
-    };
-
-    render() {
-        return (
-            <DefaultLayout title={this.props.title}>
-            <div>Hello {this.props.name}</div>
-            <ul dangerouslySetInnerHTML={{__html: this.getListItems()}}></ul>
-          </DefaultLayout>
-        );
-    }
+function Index(props) {
+    return (
+        <DefaultLayout title={props.title}>
+        <div>Hello hello {props.name}</div>
+        <ul dangerouslySetInnerHTML={{__html: getListItems()}}></ul>
+        </DefaultLayout>
+    );
 }
+
+module.exports = Index;
