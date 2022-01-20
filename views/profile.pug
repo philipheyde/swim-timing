@@ -1,17 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  table
-    thead
-      tr
-        th Løb
-        th Tid
-        th Banelængde
-    tbody
-      for event in events
-        tr
-          td: a(href=event.event_link) #{event.event_name}
-          td #{event.time_formatted}
-          td #{event.pool_text}
+  h1= swimmerData.name
+  div.container
+    div.table
+      div.table-header
+        div.header__item: div.filter__link "Løb"
+        div.header__item: div.filter__link.filter__link--number "Tid"
+        div.header__item: div.filter__link "Banelængde"
+      div.table-content
+        for event in events
+          div.table-row
+            div.table-data #{event.event_name}
+            div.table-data #{event.time_formatted}
+            div.table-data #{event.pool_text}
