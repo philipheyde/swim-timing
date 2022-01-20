@@ -21,19 +21,5 @@ module.exports = {
             // always executed
             next();
         });
-/*
-        const requestOptions = {
-            url: 'https://api.svømmetider.dk/personlige-rekorder?swimmer_id=' + req.params.userId + '&token=5c3f1ed54c58adee4368121ec506442b',
-            method: 'GET',
-          };
-        
-        request(
-            requestOptions,
-            (err, response, body) => {
-                renderHomepage(req, res);
-            }
-        );
-        next();
-        */
     }
 }
