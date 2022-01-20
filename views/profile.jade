@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  table
+    thead
+      tr
+        th Løb
+        th Tid
+        th Banelængde
+    tbody
+      for event in events
+        tr
+          td: a(href=event.event_link) #{event.event_name}
+          td #{event.time_formatted}
+          td #{event.pool_text}
