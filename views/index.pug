@@ -1,8 +1,7 @@
-extends layout
+extends layouts/layout
 
 block content
   h1= title
-  p Welcome to #{title}
-  ul
-  for swimmer in swimmerData
-    li: a(href='/profile/' + swimmer.id) #{swimmer.name}
+  ul.members
+  for swimmer in teamData.members
+    li: a(href='/profile/' + teamData.id + "/" + swimmer.id) #{swimmer.name}

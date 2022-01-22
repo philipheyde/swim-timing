@@ -15,7 +15,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug')
 
-router.use('/profile/:userId', swimTimes.getSwimmerTimes);
+router.use('/profile/:teamId/:userId', swimTimes.getSwimmerTimes);
 
 app.use('/', router);
 
@@ -26,10 +26,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use(testMiddleware());
-app.get('/', indexRouter);
+app.get('/:teamId', indexRouter);
 
 //app.get('/profile/:userId', swimTimes.getSwimmerTimes, profileRouter);
-app.get('/profile/:userId', profileRouter);
+app.get('/profile/:teamId/:userId', profileRouter);
 app.get('/favicon.ico', (req, res) => res.status(204));
 
 

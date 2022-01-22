@@ -1,34 +1,74 @@
-[
+{
+  "teams": [
     {
-        "id":34214,
-        "name":"Harald"
+      "id": 1,
+      "name": "Hold 1",
+      "members": [
+        {
+          "id": 34214,
+          "name": "Harald"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer A"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer B"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer C"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer D"
+        }
+      ]
     },
     {
-        "id":123,
-        "name":"Svømmer A"
+      "id": 2,
+      "name": "Hold 2",
+      "members": [
+        {
+          "id": 123,
+          "name": "Svømmer A"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer B"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer C"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer D"
+        }
+      ]
     },
     {
-        "id":123,
-        "name":"Svømmer B"
-    },
-    {
-        "id":123,
-        "name":"Svømmer C"
-    },
-    {
-        "id":123,
-        "name":"Svømmer D"
-    },
-    {
-        "id":123,
-        "name":"Svømmer E"
-    },
-    {
-        "id":123,
-        "name":"Svømmer F"
-    },
-    {
-        "id":123,
-        "name":"Svømmer G"
+      "id": 3,
+      "name": "Hold 3",
+      "members": [
+        {
+          "id": 123,
+          "name": "Svømmer A"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer B"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer C"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer D"
+        }
+      ]
     }
-]
+  ]
+}

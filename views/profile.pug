@@ -1,6 +1,7 @@
-extends layout
+extends layouts/layout
 
 block content
+  a.back(href="javascript:history.back()") Tilbage
   h1= swimmerData.name
   div.container
     div.table

@@ -5,10 +5,14 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+a:link, a:visited {
+	color: #0063a6;
+    text-decoration: none;
 }
 
+li {
+	list-style: none;
+}
 :root {
   --base-spacing-unit: 24px;
   --half-spacing-unit: $base-spacing-unit / 2;
