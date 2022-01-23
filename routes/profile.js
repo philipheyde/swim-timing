@@ -4,7 +4,7 @@ var swimmerData = require('../data/swimmers.json');
 
 router.get('/profile/:teamId/:userId', function(req, res, next) {
   var memberData = getMemberData(req.params.teamId, req.params.userId);
-
+  console.log('res.events', res.events);
   res.render('profile', { title: memberData.name, swimmerData:memberData, events:res.events });
 });
 

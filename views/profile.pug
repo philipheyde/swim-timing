@@ -9,9 +9,11 @@ block content
         div.header__item: div.filter__link Løb
         div.header__item: div.filter__link.filter__link--number Tid
         div.header__item: div.filter__link Banelængde
+        div.header__item: div.filter__link Detaljer
       div.table-content
         for event in events
           div.table-row
             div.table-data #{event.event_name}
             div.table-data #{event.time_formatted}
             div.table-data #{event.pool_text}
+            div.table-data: a(href=event.event_link target="_blank") Mere info på svømmetider.dk
