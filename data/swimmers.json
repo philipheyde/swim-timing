@@ -5,24 +5,20 @@
       "name": "Hold 1",
       "members": [
         {
-          "id": 34214,
-          "name": "Harald"
+          "id": 28627,
+          "name": "Anna Dietrichsen"
         },
         {
-          "id": 123,
-          "name": "Svømmer A"
+          "id": 31928,
+          "name": "Ida Skov Kragh"
         },
         {
-          "id": 123,
-          "name": "Svømmer B"
+          "id": 33224,
+          "name": "Mira Capito"
         },
         {
-          "id": 123,
-          "name": "Svømmer C"
-        },
-        {
-          "id": 123,
-          "name": "Svømmer D"
+          "id": 32858,
+          "name": "Naya Høi Greve"
         }
       ]
     },
@@ -31,42 +27,40 @@
       "name": "Hold 2",
       "members": [
         {
-          "id": 123,
-          "name": "Svømmer A"
+          "id": 37191,
+          "name": "Dyveke Larsen"
         },
         {
-          "id": 123,
-          "name": "Svømmer B"
+          "id": 34214,
+          "name": "Harald Rasmus Svendsen"
         },
         {
-          "id": 123,
-          "name": "Svømmer C"
+          "id": 38329,
+          "name": "Karoline Melholt Gentin"
         },
         {
-          "id": 123,
-          "name": "Svømmer D"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Hold 3",
-      "members": [
-        {
-          "id": 123,
-          "name": "Svømmer A"
+          "id": 33744,
+          "name": "Lina Thejlman"
         },
         {
-          "id": 123,
-          "name": "Svømmer B"
+          "id": 35501,
+          "name": "Louise Olsen"
         },
         {
-          "id": 123,
-          "name": "Svømmer C"
+          "id": 37186,
+          "name": "Melissa Walther Capito"
         },
         {
-          "id": 123,
-          "name": "Svømmer D"
+          "id": 37187,
+          "name": "Signe Grynnerup"
+        },
+        {
+          "id": 35502,
+          "name": "Silje Rasmussen"
+        },
+        {
+          "id": 35917,
+          "name": "Sofie Lykke"
         }
       ]
     }
