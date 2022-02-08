@@ -5,12 +5,52 @@
       "name": "Hold 1",
       "members": [
         {
+          "id": 23664,
+          "name": "Anders Kousgard Kortegaard"
+        },
+        {
+          "id": 18973,
+          "name": "Andrea Paaske"
+        },
+        {
           "id": 28627,
           "name": "Anna Dietrichsen"
         },
         {
+          "id": 32150,
+          "name": "Anna Merl Larsen"
+        },
+        {
+          "id": 13393,
+          "name": "Cecilie Wiuff"
+        },
+        {
+          "id": 26060,
+          "name": "Christine L. Henriksen"
+        },
+        {
+          "id": 23672,
+          "name": "Emil Røpke"
+        },
+        {
           "id": 31928,
           "name": "Ida Skov Kragh"
+        },
+        {
+          "id": 30027,
+          "name": "Juliane Bo Andersen"
+        },
+        {
+          "id": 1,
+          "name": "Julie Kepp Zimmerman Jensen"
+        },
+        {
+          "id": 12870,
+          "name": "Katja Korbo Petersson"
+        },
+        {
+          "id": 14694,
+          "name": "Lærke Toft Ruby"
         },
         {
           "id": 33224,
@@ -19,6 +59,30 @@
         {
           "id": 32858,
           "name": "Naya Høi Greve"
+        },
+        {
+          "id": 26177,
+          "name": "Nicolai Therkelsen"
+        },
+        {
+          "id": 19224,
+          "name": "Nicolai Wiuff"
+        },
+        {
+          "id": 28585,
+          "name": "Noah Tranum"
+        },
+        {
+          "id": 24352,
+          "name": "Pernille Elm Jensen"
+        },
+        {
+          "id": 29698,
+          "name": "Sif Bramm"
+        },
+        {
+          "id": 29699,
+          "name": "Silja Brage"
         }
       ]
     },
@@ -27,12 +91,44 @@
       "name": "Hold 2",
       "members": [
         {
+          "id": 32830,
+          "name": "Alexander Merl Larsen"
+        },
+        {
+          "id": 36721,
+          "name": "Caja Basler Abildgaard"
+        },
+        {
+          "id": 36743,
+          "name": "Clara Scheibye"
+        },
+        {
           "id": 37191,
           "name": "Dyveke Larsen"
         },
         {
+          "id": 32825,
+          "name": "Frederik Damsgaard"
+        },
+        {
+          "id": 28581,
+          "name": "Frederik Kepp Jensen"
+        },
+        {
+          "id": 103269,
+          "name": "Freja Mattrup Lund-Hansen"
+        },
+        {
           "id": 34214,
           "name": "Harald Rasmus Svendsen"
+        },
+        {
+          "id": 33407,
+          "name": "Jacob Uldall-Jessen"
+        },
+        {
+          "id": 36183,
+          "name": "Jens Nielsen"
         },
         {
           "id": 38329,
@@ -43,8 +139,16 @@
           "name": "Lina Thejlman"
         },
         {
+          "id": 36734,
+          "name": "Liv Frost Juhler"
+        },
+        {
           "id": 35501,
           "name": "Louise Olsen"
+        },
+        {
+          "id": 101011,
+          "name": "Magnus Svane Hartmann"
         },
         {
           "id": 37186,
@@ -52,7 +156,7 @@
         },
         {
           "id": 37187,
-          "name": "Signe Grynnerup"
+          "name": "Signe Holstein Grynnerup"
         },
         {
           "id": 35502,
@@ -61,6 +165,28 @@
         {
           "id": 35917,
           "name": "Sofie Lykke"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hold 3",
+      "members": [
+        {
+          "id": 123,
+          "name": "Svømmer A"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer B"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer C"
+        },
+        {
+          "id": 123,
+          "name": "Svømmer D"
         }
       ]
     }
